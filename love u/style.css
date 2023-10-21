@@ -1,0 +1,45 @@
+html{
+    font-family: 'Silkscreen', cursive;;
+    background-color:darkslategrey;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+    display: block;
+    position: absolute;
+}
+.app{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.buttonGroup{
+    margin-top: 150px;
+}
+.button--yes{
+    position: absolute;
+    display: flex;
+    cursor: pointer;
+    margin: 0 10px;
+    padding: 10px 30px;
+    background-color: antiquewhite;
+    border: none;
+}
+.button--no{
+    position: absolute;
+    display: flex;
+    cursor: pointer;
+    margin: 0 10px;
+    padding: 10px 30px;
+    background-color: antiquewhite;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: absolute;
+    left : 840px;
+    top : 158px;
+}
